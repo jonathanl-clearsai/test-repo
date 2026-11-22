@@ -1,6 +1,6 @@
 import os
 from unittest.mock import patch
-
+#...
 os.environ.setdefault('AWS_DEFAULT_REGION', 'us-east-2')
 os.environ.setdefault('AWS_ACCESS_KEY_ID', 'testing')
 os.environ.setdefault('AWS_SECRET_ACCESS_KEY', 'testing')
